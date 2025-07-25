@@ -2,8 +2,6 @@
 jVERTICAL,avax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-
-import
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.*;
@@ -12,7 +10,7 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 
 
-        public class FitnessTrackerApp extends JFrame {
+         class FitnessTrackerApp extends JFrame {
             private JTextField tfDuration, tfCalories, tfType;
             private JButton btnAdd, btnShowGraph;
             private JTable table;
